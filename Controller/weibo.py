@@ -4,7 +4,7 @@ import urllib.request
 import json
 
 # 定义要爬取的微博的微博ID
-id='5136859859'
+id='5136859895'
 
 # 设置代理IP
 proxy_addr="117.57.99.73:61234"
