@@ -1,0 +1,14 @@
+[INFO  - 2018-05-18T07:49:01.556Z] GhostDriver - Main - running on port 8290
+[INFO  - 2018-05-18T07:49:02.041Z] Session [ee481050-5a6f-11e8-bcee-e59e4ac2e889] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 Qiyu 2.1.0.0","webSecurityEnabled":true}
+[INFO  - 2018-05-18T07:49:02.041Z] Session [ee481050-5a6f-11e8-bcee-e59e4ac2e889] - page.customHeaders:  - {}
+[INFO  - 2018-05-18T07:49:02.041Z] Session [ee481050-5a6f-11e8-bcee-e59e4ac2e889] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 Qiyu 2.1.0.0"}
+[INFO  - 2018-05-18T07:49:02.041Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ee481050-5a6f-11e8-bcee-e59e4ac2e889
+[ERROR - 2018-05-18T07:49:13.638Z] Session [ee481050-5a6f-11e8-bcee-e59e4ac2e889] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'document.getElementById('ifcomment').contentWindow.AutoifHeight()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-18T07:49:13.639Z] Session [ee481050-5a6f-11e8-bcee-e59e4ac2e889] - page.onError - stack:
+  (anonymous function) (https://img.ithome.com/file/js/v2.3/common.js?r=20180504:172)
+  dispatch (https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js:3)
+  handle (https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
