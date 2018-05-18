@@ -4,4 +4,4 @@ height_pos = srt.index('&q=')
 width_height_str = srt[width_pos :] #使用切片功能截取高度和宽度参数，后面用来将该参数替换掉
 print('高度和宽度数据字符串是：', width_height_str)
 img_url_final = srt.replace(width_height_str, '')  #把高度和宽度的字符串替换成空字符
-print('截取后的图片的url为：', img_url_final)
+print('截取后的图片的url是：', img_url_final)
