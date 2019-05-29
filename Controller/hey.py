@@ -16,7 +16,7 @@ class Hey(object):
         return r
 
     def get_youhui(self):
-        print('开始网页get请求')
+        print('开始网页get请求###')
         r = self.request(self.web_url)
         print('开始获取所有SPAN标签')
         div = BeautifulSoup(r.text, 'lxml').find('ul', class_='mvlist')  # 获取网页中的class为cV68d的所有a标签
